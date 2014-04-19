@@ -1,0 +1,191 @@
+[09-Jan-2014 15:53:27] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/process.php on line 8
+[09-Jan-2014 15:55:43] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/process.php on line 8
+[09-Jan-2014 15:59:37] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home3/mclamp/public_html/prototype/process.php on line 8
+[09-Jan-2014 16:06:20] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/process.php on line 8
+[09-Jan-2014 16:07:08] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/process.php on line 8
+[09-Jan-2014 16:07:13] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/process.php on line 8
+[09-Jan-2014 16:07:27] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/process.php on line 9
+[20-Jan-2014 13:50:54] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 8
+[21-Jan-2014 09:31:38] PHP Parse error:  syntax error, unexpected ';' in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 13
+[21-Jan-2014 09:38:33] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 12
+[21-Jan-2014 09:39:14] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 13
+[27-Jan-2014 12:14:20] PHP Warning:  include(nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/coveratour.php on line 37
+[27-Jan-2014 12:14:20] PHP Warning:  include(nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/coveratour.php on line 37
+[27-Jan-2014 12:14:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'nav.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/mclamp/public_html/prototype/coveratour.php on line 37
+[27-Jan-2014 12:14:59] PHP Warning:  include(tour_portal/nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/coveratour.php on line 37
+[27-Jan-2014 12:14:59] PHP Warning:  include(tour_portal/nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/coveratour.php on line 37
+[27-Jan-2014 12:14:59] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'tour_portal/nav.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/mclamp/public_html/prototype/coveratour.php on line 37
+[27-Jan-2014 12:30:04] PHP Warning:  include(nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/coverage.php on line 32
+[27-Jan-2014 12:30:04] PHP Warning:  include(nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/coverage.php on line 32
+[27-Jan-2014 12:30:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'nav.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/mclamp/public_html/prototype/coverage.php on line 32
+[28-Jan-2014 14:10:58] PHP Warning:  include(slc/nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/welcomeday.php on line 32
+[28-Jan-2014 14:10:58] PHP Warning:  include(slc/nav.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home3/mclamp/public_html/prototype/welcomeday.php on line 32
+[28-Jan-2014 14:10:58] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'slc/nav.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home3/mclamp/public_html/prototype/welcomeday.php on line 32
+[10-Feb-2014 10:42:52] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[10-Feb-2014 12:12:12] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[10-Feb-2014 17:14:23] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[10-Feb-2014 17:14:31] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[11-Feb-2014 11:03:31] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[13-Feb-2014 11:37:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[13-Feb-2014 12:54:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[13-Feb-2014 17:00:07] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[15-Feb-2014 10:24:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[16-Feb-2014 01:08:01] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[17-Feb-2014 18:01:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[18-Feb-2014 13:18:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[18-Feb-2014 13:18:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[18-Feb-2014 14:23:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[20-Feb-2014 18:14:39] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[21-Feb-2014 11:24:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[22-Feb-2014 11:07:23] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:24] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:29] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:31] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:07:31] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:31] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:07:31] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:40:32] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:40:32] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:40:32] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:40:32] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:38] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:44:38] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:38] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:38] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:46] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:47] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:48] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:49] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:44:49] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:49] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:44:49] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:50:22] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 11:50:22] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:50:22] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 11:50:22] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 12:40:11] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 12:40:11] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 12:40:11] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 12:40:11] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 12:40:37] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 12:40:37] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 12:40:37] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 12:40:37] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:41:52] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 16:41:52] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:41:52] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:41:52] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 16:51:34] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:36:53] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 19:36:53] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:36:53] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:36:53] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:09] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 19:37:09] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:09] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:09] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:11] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 19:37:11] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:11] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:11] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:12] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 30
+[22-Feb-2014 19:37:12] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:12] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 19:37:12] PHP Warning:  Invalid argument supplied for foreach() in /home3/mclamp/public_html/prototype/tabletest.php on line 47
+[22-Feb-2014 21:21:22] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 34
+[22-Feb-2014 21:21:42] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 34
+[22-Feb-2014 21:21:43] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/tabletest.php on line 34
+[24-Feb-2014 08:22:47] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[24-Feb-2014 09:10:27] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[24-Feb-2014 20:44:36] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 22
+[25-Feb-2014 16:28:57] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/monthtlycheckin.php on line 45
+[25-Feb-2014 18:26:31] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/updates.php on line 15
+[25-Feb-2014 18:27:41] PHP Fatal error:  Function name must be a string in /home3/mclamp/public_html/prototype/updates.php on line 19
+[25-Feb-2014 18:28:05] PHP Fatal error:  Function name must be a string in /home3/mclamp/public_html/prototype/updates.php on line 19
+[25-Feb-2014 18:28:06] PHP Fatal error:  Function name must be a string in /home3/mclamp/public_html/prototype/updates.php on line 19
+[25-Feb-2014 18:28:46] PHP Fatal error:  Function name must be a string in /home3/mclamp/public_html/prototype/updates.php on line 19
+[25-Feb-2014 18:29:02] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home3/mclamp/public_html/prototype/updates.php on line 18
+[26-Feb-2014 19:57:36] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[03-Mar-2014 14:14:07] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 31
+[03-Mar-2014 14:14:59] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 32
+[04-Mar-2014 08:03:08] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 32
+[04-Mar-2014 08:03:22] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/processcoverage.php on line 32
+[04-Mar-2014 21:13:04] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[04-Mar-2014 21:17:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[04-Mar-2014 21:31:31] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[04-Mar-2014 21:42:52] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home3/mclamp/public_html/prototype/acceptcoverage.php:2) in /home3/mclamp/public_html/prototype/acceptcoverage.php on line 3
+[07-Mar-2014 11:40:33] PHP Fatal error:  Call to a member function query() on a non-object in /home3/mclamp/public_html/prototype/coverage.php on line 63
+[07-Mar-2014 11:43:49] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/coverage.php on line 63
+[07-Mar-2014 11:43:49] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/coverage.php on line 63
+[07-Mar-2014 11:45:02] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/coveratour.php on line 92
+[07-Mar-2014 11:45:02] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/coveratour.php on line 92
+[07-Mar-2014 11:45:06] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/coverage.php on line 63
+[07-Mar-2014 11:45:06] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/coverage.php on line 63
+[07-Mar-2014 13:07:56] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/mclamp/public_html/prototype/welcomeday.php on line 62
+[07-Mar-2014 13:08:32] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/mclamp/public_html/prototype/welcomeday.php on line 62
+[11-Mar-2014 08:35:34] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/processcoverage.php on line 38
+[15-Mar-2014 06:50:54] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 15
+[26-Mar-2014 08:43:06] PHP Parse error:  syntax error, unexpected T_STRING in /home3/mclamp/public_html/prototype/monthlycheckin.php on line 55
+[26-Mar-2014 08:47:32] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/monthlycheckin.php on line 59
+[01-Apr-2014 21:00:07] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 15
+[01-Apr-2014 21:00:15] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/processwelcomeday.php on line 15
+[02-Apr-2014 11:08:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:08:22] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:08:24] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:08:24] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:08:25] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:08:25] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:10:35] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:10:35] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:11:14] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:11:14] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:45:22] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:45:22] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:47:33] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 11:47:33] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home3/mclamp/public_html/prototype/tabletest.php on line 58
+[02-Apr-2014 20:23:55] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home3/mclamp/public_html/prototype/processcoverage.php on line 38
+[05-Apr-2014 16:00:05] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/dailycoverage.php on line 38

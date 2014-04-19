@@ -1,0 +1,2 @@
+AuthName "Tour Guide System"
+AuthUserFile "/home3/mclamp/.htpasswds/public_html/prototype/leadership/passwd"

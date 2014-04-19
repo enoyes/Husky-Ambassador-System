@@ -1,0 +1,10 @@
+[28-Jan-2014 14:00:48] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/slc/slc/getaudits.php on line 63
+[28-Jan-2014 14:02:28] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/slc/slc/openaudit.php on line 46
+[10-Feb-2014 11:45:50] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/1040): Too many connections in /home3/mclamp/public_html/prototype/leadership/slc/budget.php on line 168
+[10-Feb-2014 11:45:50] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home3/mclamp/public_html/prototype/leadership/slc/budget.php on line 173
+[10-Feb-2014 11:45:50] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/leadership/slc/budget.php on line 175
+[10-Feb-2014 11:50:32] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/1040): Too many connections in /home3/mclamp/public_html/prototype/leadership/slc/budget.php on line 168
+[10-Feb-2014 11:50:32] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli in /home3/mclamp/public_html/prototype/leadership/slc/budget.php on line 173
+[10-Feb-2014 11:50:32] PHP Fatal error:  Call to a member function data_seek() on a non-object in /home3/mclamp/public_html/prototype/leadership/slc/budget.php on line 175
+[21-Mar-2014 11:39:08] PHP Parse error:  syntax error, unexpected '[' in /home3/mclamp/public_html/prototype/leadership/slc/emaillist.php on line 3
+[21-Mar-2014 11:39:30] PHP Parse error:  syntax error, unexpected '[' in /home3/mclamp/public_html/prototype/leadership/slc/emaillist.php on line 3

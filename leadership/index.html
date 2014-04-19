@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Tour Guide Management System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+<link rel="stylesheet" href="css/bootswatch.css" media="screen" />
+<style>
+ .navbar{
+      background-image: -webkit-linear-gradient(rgb(255, 92, 92), rgb(187, 21, 21) 60%, rgb(255, 0, 0));
+      border-bottom: 1px solid rgb(255, 0, 0);
+    }
+    .nav-tabs > li > a{
+      color:rgb(255, 0, 0);
+    }
+    .nav .navbar-nav:hover{
+      color:rgb(220, 0, 0);
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+
+      color:rgb(185, 0, 0);
+    }
+    .navbar-brand{
+      font-size:25px;
+    }</style>
+<style type="text/css"></style>
+<style type="text/css"></style>
+<style type="text/css"></style>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header"><a href="index.jsp" class="navbar-brand">Tour Guide Management System</a>
+<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+<div class="navbar-collapse collapse" id="navbar-main">
+<ul class="nav navbar-nav">
+<li><a href="#">Help</a></li></ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">Sign In</a></li></ul></div></div></div>
+<div class="container"><br />
+<br /><br />
+<div class="page-header" id="banner">
+<div class="row">
+<div class="col-lg-2"><img alt="" src="images/tour.png" /></div>
+<div class="col-lg-5">
+<h1>Tour Guide Management System</h1>
+<p class="lead">Your ultimate tour guide portal.</p></div>
+<div class="col-lg-5">
+<div class="bsa well">
+<h3>New here? <a onclick="$('#login').hide('slow');$('#signUp').show('slow')">Sign Up</a>!</h3></div></div></div></div>
+<div class="row">
+<div class="col-lg-8">
+<h1>Tour Guide Management System</h1></div>
+<div id="login" class="col-lg-4">
+<h2>Login (JUST CLICK THE LOGIN BUTTON)</h2>
+<div class="well">
+<form method="POST" action="../vc/dashboard.php" class="bs-example form-horizontal">
+<fieldset>
+<div class="form-group"><label for="inputEmail" class="col-lg-2 control-label">Email</label>
+<div class="col-lg-10"><input type="text" class="form-control" name="inputEmail" placeholder="Email" /></div></div>
+<div class="form-group"><label for="inputPassword" class="col-lg-2 control-label">Password</label>
+<div class="col-lg-10"><input type="password" class="form-control" name="inputPassword" placeholder="Password" />
+<div class="checkbox"><label><input type="checkbox" /> Remember me</label></div></div></div>
+<div class="form-group">
+<div class="col-lg-10 col-lg-offset-2">
+<button type="submit" class="btn btn-primary">Login</button></div></div></fieldset></form></div></div>
+<div id="signUp" class="col-lg-4">
+<h2>Sign Up</h2>
+<div class="well">
+<form action="register" method="POST" class="bs-example form-horizontal">
+<fieldset>
+<div class="form-group"><label for="inputName" class="col-lg-2 control-label">Name</label>
+<div class="col-lg-10"><input type="text" class="form-control" name="inputName" id="inputName" placeholder="Name" /></div></div>
+<div class="form-group"><label for="inputEmail" class="col-lg-2 control-label">Email</label>
+<div class="col-lg-10"><input type="text" class="form-control" name="inputEmail" id="inputEmail" placeholder="Email" /></div></div>
+<div class="form-group"><label for="inputPassword" class="col-lg-2 control-label">Password</label>
+<div class="col-lg-10"><input type="password" class="form-control" name="inputPassword" id="inputPassword" placeholder="Password" /></div></div>
+<div class="form-group">
+<div class="col-lg-10 col-lg-offset-2">
+<button type="submit" class="btn btn-primary">Sign Up</button> </div></div>
+<p>Already have an account? <a onclick="$('#login').show('slow');$('#signUp').hide('slow')">Sign in</a></p></fieldset></form></div></div></div><br />
+<br /><br />
+<br /><br />
+<br /><br />
+<footer>
+<div class="row">
+<div class="col-lg-12">
+<ul class="list-unstyled">
+<li class="pull-right"><a href="#top">Back to top</a></li></ul></div></div></footer></div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+      $( document ).ready(function() {
+            $('#signUp').hide();
+        });
+      </script>
+</body>
+</html>

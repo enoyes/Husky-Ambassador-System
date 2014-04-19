@@ -1,0 +1,2 @@
+AuthName "slc"
+AuthUserFile "/home3/mclamp/.htpasswds/public_html/prototype/leadership/slc/passwd"

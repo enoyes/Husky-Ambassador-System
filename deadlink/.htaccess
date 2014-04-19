@@ -1,0 +1,4 @@
+AuthUserFile "/home3/mclamp/.htpasswds/public_html/prototype/tour_portal/passwd"
+AuthType Basic
+AuthName "Tour Guide System"
+require valid-user
