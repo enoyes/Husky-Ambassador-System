@@ -1,5 +1,9 @@
 -- SQL TRANSFER
 SET foreign_key_checks = 0;
+
+-- Create master roster of ambassadors
+-- All personal info goes here
+
  DROP TABLE IF EXISTS master_roster;
 CREATE TABLE master_roster
 (
@@ -24,6 +28,9 @@ trained_ath int,
 PRIMARY KEY (uid)
 )
 ENGINE = InnoDB;
+
+-- Abassador availability table
+-- Create an entry for every ambassador and each of their time slots
  DROP TABLE IF EXISTS master_availability;
 CREATE TABLE master_availability
 (
@@ -33,6 +40,9 @@ time int,
 PRIMARY KEY (uid, day, time)
 )
 ENGINE = InnoDB;
+
+-- Create a schedule 
+-- Went from 50 tables to 1
  DROP TABLE IF EXISTS master_schedule;
 CREATE TABLE master_schedule
 (
@@ -43,6 +53,8 @@ type int,
 PRIMARY KEY (uid, day, time, type)
 )
 ENGINE = InnoDB;
+
+-- Keep track of who went to their tours and when
  DROP TABLE IF EXISTS attendance;
 CREATE TABLE attendance
 (
@@ -57,6 +69,8 @@ timestamp timestamp,
 PRIMARY KEY (uid, day, time, type, week)
 )
 ENGINE = InnoDB;
+
+-- Training requirements and other meetings
  DROP TABLE IF EXISTS requirements;
 CREATE TABLE requirements
 (
@@ -66,6 +80,8 @@ status int,
 PRIMARY KEY (uid, event)
 )
 ENGINE = InnoDB;
+
+-- Setting up table for covering other people's shifts
  DROP TABLE IF EXISTS coverage;
 CREATE TABLE coverage
 (
@@ -81,6 +97,8 @@ timestamp timestamp DEFAULT CURRENT_TIMESTAMP,
 PRIMARY KEY (uid, day, time, week)
 )
 ENGINE = InnoDB;
+
+-- Add foriegn key constraints
  ALTER TABLE master_availability ADD FOREIGN KEY (uid) REFERENCES master_roster(uid) ON UPDATE CASCADE ON DELETE CASCADE;
  ALTER TABLE requirements ADD FOREIGN KEY (uid) REFERENCES master_roster(uid) ON UPDATE CASCADE ON DELETE CASCADE;
  ALTER TABLE coverage ADD FOREIGN KEY (uid) REFERENCES master_roster(uid) ON UPDATE CASCADE;
@@ -89,14 +107,19 @@ ENGINE = InnoDB;
  CREATE EVENT populate_attendance
 	ON SCHEDULE AT "2014-03-07 05:00:00"
 	EVERY DAY
+	
  -- Transfer masterroster2014 into master_roster
+ -- Easy ones
 INSERT INTO master_roster 
 SELECT  UID, FirstName, LastName, 0, Hometown, state,
 		Country, Gender, HighSchool, Major, College,
 		GraduationYear, Email, PhoneNumber, SemesterStarted,
 		Ethnicity, 0, 0
 FROM masterroster2014;
+
  -- Get the guides that aren't in the masterroster2014
+ -- Convert a first and last name column into 2 seperate columns
+ -- Using guidelist
 INSERT INTO master_roster (first_name, last_name, type)
 SELECT 
 LEFT(gl.Name, LOCATE(' ', gl.Name) - 1),
@@ -107,7 +130,10 @@ FROM
 FROM guidelist gl 
 WHERE gl.Name NOT LIKE '%(M)%' 
 AND gl.Name NOT IN (SELECT CONCAT(mr.first_name, ' ', mr.last_name) FROM master_roster mr)) gl;
- -- Get the minglers that aren't in the masterroster2014
+
+
+-- Get the minglers that aren't in the masterroster2014
+-- Minglers have (M) in the name
 INSERT INTO master_roster (first_name, last_name, type)
 SELECT 
 LEFT(gl.Name, LOCATE(' ', gl.Name) - 1),
@@ -118,15 +144,19 @@ FROM
 FROM guidelist gl 
 WHERE gl.Name LIKE '%(M)%' 
 AND gl.Name NOT IN (SELECT CONCAT(mr.first_name, ' ', mr.last_name, ' (M)') FROM master_roster mr)) gl;
+ 
  -- Determine if each person is a tour guide or mingler
 UPDATE master_roster mr
 INNER JOIN guidelist gl
 ON CONCAT(mr.first_name, ' ', mr.last_name, ' (M)') = gl.Name
 SET mr.type = 3;
+
  -- Determine if users are trained in athletics
 UPDATE master_roster SET trained_ath = 1 
 WHERE uid IN (SELECT UID FROM masterroster2014 where TrainedOnAthletics = 'yes');
- -- Coalesce the schedule tables into a single table
+
+-- Coalesce the schedule tables into a single table
+-- Generated in python based on the beginning of the 2014 calandar year
 INSERT INTO master_schedule SELECT mr.uid,  1 ,  10 , mr.type FROM Monday10am daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%');
 INSERT INTO master_schedule SELECT mr.uid,  1 ,  11 , mr.type FROM Monday11am daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%');
 INSERT INTO master_schedule SELECT mr.uid,  1 ,  12 , mr.type FROM Monday12pm daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%');
@@ -160,6 +190,7 @@ INSERT INTO master_schedule SELECT mr.uid,  5 ,  16 , mr.type FROM Friday4pm day
 INSERT INTO master_schedule SELECT mr.uid,  6 ,  10 , mr.type FROM Saturday10am daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%');
 INSERT INTO master_schedule SELECT mr.uid,  6 ,  11 , mr.type FROM Saturday11am daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%');
 INSERT INTO master_schedule SELECT mr.uid,  6 ,  12 , mr.type FROM Saturday12pm daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%');
+ 
  -- Generate the master_availability table based on the availability table
 INSERT INTO master_availability SELECT mr.uid, 1 , 10 FROM availability a INNER JOIN master_roster mr ON mr.last_name = a.LastName AND mr.first_name = a.FirstName WHERE a.Monday10am = 1;
 INSERT INTO master_availability SELECT mr.uid, 1 , 11 FROM availability a INNER JOIN master_roster mr ON mr.last_name = a.LastName AND mr.first_name = a.FirstName WHERE a.Monday11am = 1;
@@ -490,7 +521,9 @@ INSERT INTO attendance SELECT mr.uid, 5, 12, mr.type, 7, daytable.Feb28, 0, NULL
 INSERT INTO attendance SELECT mr.uid, 5, 14, mr.type, 7, daytable.Feb28, 0, NULL FROM Friday2pm daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%') WHERE daytable.Feb28 <> 0;
 INSERT INTO attendance SELECT mr.uid, 5, 15, mr.type, 7, daytable.Feb28, 0, NULL FROM Friday3pm daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%') WHERE daytable.Feb28 <> 0;
 INSERT INTO attendance SELECT mr.uid, 5, 16, mr.type, 7, daytable.Feb28, 0, NULL FROM Friday4pm daytable INNER JOIN master_roster mr ON daytable.Name LIKE CONCAT(mr.first_name, ' ', mr.last_name, '%') WHERE daytable.Feb28 <> 0;
- -- Transfer over the coverage table
+
+
+-- Transfer over the coverage table
 INSERT INTO coverage 
 SELECT mr1.uid, 
 CASE oc.Day
